@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "mode": "records",
+  "key": ["/id"],
+  "ignore": ["/updated_at", "/request_id"],
+  "rules": {
+    "/plan": {"allow_change": false, "severity": "critical"},
+    "/score": {"tolerance": 2}
+  },
+  "records": {"added": "review", "removed": "forbid"},
+  "csv_types": {"/id": "number", "/score": "number"}
+}

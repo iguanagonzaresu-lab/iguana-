@@ -1,0 +1,4 @@
+[
+  {"id": 1, "name": "Alice", "plan": "pro", "score": 82, "updated_at": "2026-10-09"},
+  {"id": 2, "name": "Bob", "plan": "free", "score": 65, "updated_at": "2026-10-09"}
+]
